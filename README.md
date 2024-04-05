@@ -1,29 +1,26 @@
-# Words App
+# Inventory Management System
 
-This folder contains the source code for the Words app codelab.
+This folder contains the source code for the Inventory Management System.
 
 
 # Introduction
-Words app allows you to select a letter and use Intents to navigate to an Activity that
-presents a number of words starting with that letter. Each word can be looked up via a web search.
+The Inventory Management System is designed to help businesses keep track of their inventory efficiently. It provides functionalities for managing products, categories, suppliers, and orders. Users can add, update, delete, and search for products, view product details, manage suppliers, and track orders.
 
-Words app contains a scrollable list of 26 letters A to Z in a RecyclerView. The orientation
-of the RecyclerView can be changed between a vertical list or a grid of items.
-
-The app demonstrates the use of Intents in two ways:
-* to navigate inside an app by specifying an explicit destination, and,
-* allowing Android to service the Intent using the apps and resources present on the device.
+The system includes features such as:
+* Product Management: Add, update, delete, and search for products. View product details including quantity, price, and category.
+* Supplier Management: Add, update, delete, and search for suppliers.
+* Order Management: Track orders placed by customers.
 
 # Pre-requisites
-* Experience with Kotlin syntax.
-* Able to create an Activity.
-* Able to create a RecyclerView and supply it with data.
+* Experience with Java swing.
+* Understanding of Eclipse or any IDE.
+* Knowledge of database management.
 
 # Getting Started
-1. Install Android Studio, if you don't already have it.
-2. Download the sample.
-3. Import the sample into Android Studio.
-4. Build and run the sample.
+1. Install Eclipse, if you don't already have it.
+2. Download the source code and import it in Eclipse and Database
+3. Add Dependencies ie. Tomcat and sqlConnector jar files to the project
+4. Finally,run as java Application!
 
 
 # Demo of App
